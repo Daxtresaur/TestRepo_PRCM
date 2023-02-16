@@ -1,0 +1,9 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UAE@XZ) referenced in function "public: __thiscall BaseRunner::~BaseRunner(void)" (??1BaseRunner@@QAE@XZ)
+Main.obj : error LNK2019: unresolved external symbol "public: __thiscall BaseRunner::BaseRunner(void)" (??0BaseRunner@@QAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "public: void __thiscall BaseRunner::run(void)" (?run@BaseRunner@@QAEXXZ) referenced in function _main
+D:\DLSU\Year 4\GDPARCM\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib\freetype.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\DLSU\Year 4\GDPARCM\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib\sfml-graphics-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\DLSU\Year 4\GDPARCM\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib\sfml-window-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\DLSU\Year 4\GDPARCM\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib\sfml-system-s-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\Debug\GDPARCM_Mayuga.exe : fatal error LNK1120: 3 unresolved externals

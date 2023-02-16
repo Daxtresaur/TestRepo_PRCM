@@ -1,0 +1,26 @@
+﻿  AGameObject.cpp
+  BaseRunner.cpp
+  BGObject.cpp
+  FPSCounter.cpp
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\FPSCounter.cpp(24,57): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\FPSCounter.cpp(24,51): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\FPSCounter.cpp(24,45): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  GameObjectManager.cpp
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\GameObjectManager.cpp(34,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  IconObject.cpp
+  IETThread.cpp
+  Main.cpp
+  MathUtils.cpp
+  StringUtils.cpp
+  TextureDisplay.cpp
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\TextureDisplay.cpp(32,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\TextureDisplay.cpp(37,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\TextureDisplay.cpp(38,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  TextureManager.cpp
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\TextureManager.cpp(76,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\TextureManager.cpp(91,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+AGameObject.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+FPSCounter.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+BaseRunner.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+D:\DLSU\Year 4\GDPARCM\Projects\GDPARCM_Mayuga\x64\Debug\GDPARCM_Mayuga.exe : fatal error LNK1120: 2 unresolved externals
